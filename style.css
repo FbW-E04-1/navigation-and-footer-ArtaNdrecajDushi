@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: red;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+p{
+    text-align: justify;
+    margin: 50px
+}
+.cat{
+    width: 30px;
+    height: 30px;
+    background-image: url(icon-cat.png);
+    display: inline-block;
+    background-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.footer{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
